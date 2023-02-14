@@ -179,12 +179,9 @@ h6{
   margin: 1.5em 0 !important;
 }
 
-#main3{
+#pacotes{
   align-items: flex-start !important;
   padding-top: 150px;
-}
-
-#pacotes{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -284,7 +281,7 @@ footer{
     padding: 10px;
   }
 
-  #main3{
+  #pacotes{
     padding: 50px;
   }
 
