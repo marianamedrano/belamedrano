@@ -181,6 +181,7 @@ h6{
 
 #main3{
   align-items: flex-start !important;
+  padding-top: 150px;
 }
 
 #pacotes{
@@ -204,7 +205,7 @@ footer{
   font-size: 14px !important;
 }
 
-@media screen and (max-width: 1599px){
+@media screen and (max-width: 1199px){
   #main, .div3{
     display: none;
   }
@@ -225,12 +226,32 @@ footer{
     margin-top: 50px;
   }
 
-
 }
 
-@media screen and (min-width: 1600px){
+@media screen and (min-width: 1200px){
   #celular1{
     display: none;
+  }
+
+  #foto3{
+    width: 90%;
+    height: 70%;
+  }
+   .linha1{
+   flex-wrap: nowrap;
+ }
+
+  .div3{
+    width: 40%;
+  }
+
+  #pacotes{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #pac{
+    margin: 50px;
   }
 }
 
